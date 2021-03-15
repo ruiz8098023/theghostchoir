@@ -2,15 +2,24 @@
 Universal Styling
 *******/
 
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
 h1,
 h2 {
     font-family: braisetto, script;
     font-style: normal;
     font-weight: 400;
+    font-size: 35px;
 }
 
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
+    font-size: 25px;
 }
