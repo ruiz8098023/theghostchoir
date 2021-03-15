@@ -1,0 +1,16 @@
+/******
+Universal Styling
+*******/
+
+h1,
+h2 {
+    font-family: braisetto, script;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
