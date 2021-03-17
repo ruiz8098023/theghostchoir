@@ -41,6 +41,8 @@ li {
     transition: .5s;
 }
 
+
+
 body {
     /**background-image: linear-gradient(#091223, black);*/
     background: url("img/gatebkgrnd.jpg");
@@ -48,12 +50,18 @@ body {
 
 .sectionone {
     background-image: linear-gradient(#091223, black);
+    height: auto;
     padding: 10%;
 }
 
 .imgabout {
     width: 23%;
     position: absolute;
+}
+
+iframe {
+    width: 100%;
+    height: 700px;
 }
 
 h1,
