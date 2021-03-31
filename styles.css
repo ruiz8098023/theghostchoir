@@ -43,7 +43,7 @@ li {
 
 
 
-body {
+.sectiontop {
     /**background-image: linear-gradient(#091223, black);*/
     background: url("img/gatebkgrnd.jpg");
 }
@@ -54,9 +54,22 @@ body {
     padding: 10%;
 }
 
+.sectionthree {
+    background-image: linear-gradient(#830F24, 310911);
+    height: auto;
+    padding: 10%;
+}
+
 .imgabout {
     width: 23%;
     position: absolute;
+}
+
+.logo {
+    position: relative;
+    padding-left: 30%;
+    padding-bottom: 20%;
+
 }
 
 iframe {
