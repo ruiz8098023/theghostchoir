@@ -83,10 +83,11 @@ li {
 }
 
 .sectionthree {
-    background-image: url("img/theatre.jpg");
+    background-image: url("img/theatre.png");
     height: auto;
     padding: 10%;
-    position: relative;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     width: 100vw;
     text-align: center;
