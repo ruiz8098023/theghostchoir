@@ -111,11 +111,8 @@ iframe {
 }
 
 .sectionthree {
-    background-image: url("img/theatre.png");
-    height: auto;
+    background: url("img/theatre.png") center/cover fixed;
     padding: 10%;
-    background-size: cover;
-    background-position: center;
     min-height: 100vh;
     width: 100vw;
     text-align: center;
@@ -157,7 +154,20 @@ tr {
     color: #C9C9BF;
 }
 
-table {
-    text-align: left;
-    align-items: center;
+.tours {
+    text-align: center;
+    padding: 10%;
+}
+
+.tours td:nth-child(4) {
+    font-family: braisetto, script;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    background: #c9c9bf42;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
 }
