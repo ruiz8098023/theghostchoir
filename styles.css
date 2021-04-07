@@ -95,8 +95,13 @@ li {
 
 .imgabout {
     position: relative;
-    width: 300px;
     text-align: center;
+}
+
+.imgabout img{
+    position: relative;
+    width: 450px;
+    margin-top: 10%;
 }
 
 iframe {
@@ -121,12 +126,9 @@ iframe {
     height: auto;
     padding: 10%;
     position: relative;
-    min-height: 100vh;
     width: 100vw;
+    text-align: center;
 }
-
-
-
 
 h1,
 h2 {
