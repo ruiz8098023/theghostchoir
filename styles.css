@@ -127,6 +127,10 @@ iframe {
     text-align: center;
 }
 
+.hauntback {
+    max-width: 500px;
+}
+
 h1,
 h2 {
     font-family: braisetto, script;
@@ -171,3 +175,4 @@ tr {
     padding-right: 20px;
     border-radius: 10px;
 }
+
