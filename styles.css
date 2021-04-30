@@ -68,7 +68,11 @@ li {
 
 
 
-/*Section one stylings*/
+/*Section one stylings
+
+Albums section
+About us 'tomb' section
+*/
 
 .sectionone {
     background-image: linear-gradient(#091223, black);
@@ -80,43 +84,135 @@ li {
 }
 
 .record {
+    top: 70px;
     position: relative;
-    display: inline-block;
     text-align: center;
     width: 400px;
     margin-left: 50%;
 }
 
+.listen {
+    width: 50%;
+    color: white;
+    background: #284361;
+    padding: 0px 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: braisetto, script;
+    text-decoration: none;
+}
+
+.listen:hover {
+    color: black;
+    background-color: rgb(201, 201, 191);
+}
+
+.album {
+    position: absolute;
+    top: 90px;
+    padding: 50px;
+    left: 290px;
+    z-index: 99;
+}
+
 .tomb {
     position: relative;
     text-align: center;
-    padding: 100px;
+    padding: 230px;
 }
 
 .imgabout {
-    position: relative;
-    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 525px;
 }
 
-.imgabout img{
-    position: relative;
-    width: 450px;
-    margin-top: 10%;
+
+/*****Video strip*****/
+
+.sectiontwo {
+    height: 500px;
 }
 
 iframe {
     width: 100%;
-    min-height: 100vh;
-
+    height: 100%;
 }
+
+
+/*Section Three stylings
+Tours table
+Heirlooms merch section
+*/
 
 .sectionthree {
     background: url("img/theatre.png") center/cover fixed;
     padding: 10%;
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
     text-align: center;
 }
+
+.tours {
+    padding: 10px;
+    margin-left: 225px;
+}
+
+/*buy tickets buttons*/
+.tours td:nth-child(4) {
+    font-family: braisetto, script;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    background: #c9c9bf42;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.heirlooms {
+    position: relative;
+    text-align: center;
+    padding: 100px;
+    width: 65%;
+}
+
+.gifts {
+    width: 50%;
+    color: white;
+    background: #c9c9bf42;
+    padding: 0px 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: braisetto, script;
+    text-decoration: none;
+}
+
+.gifts:hover{
+    color: black;
+    background-color: rgb(201, 201, 191);
+}
+
+.mic {
+    position: relative;
+    width: fit-content;
+    bottom: 0px;
+    top: -315px;
+    left: 850px;
+}
+
+
+
+/*Section four stylings
+
+Footer containing form
+*/
 
 .sectionfour {
     background: linear-gradient(#830F24, #310911) center/cover fixed;
@@ -130,6 +226,46 @@ iframe {
 .hauntback {
     max-width: 500px;
 }
+
+/***Form Style***/
+.sub {
+    position: relative;
+    width: 30%;
+    left: 420px;
+    padding: 10px;
+}
+
+input[type=text], input[type=email] {
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    padding: 7px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type=submit] {
+    width: 40%;
+    color: rgb(240, 232, 232);
+    background-color: rgb(131, 15, 36);
+    padding: 3px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: braisetto, script;
+}
+
+input[type=submit]:hover{
+    color: black;
+    background-color: rgb(201, 201, 191);
+}
+
+
+/**General formatting
+Includes headers, paragraphs, and table elements
+**/
 
 h1,
 h2 {
@@ -150,7 +286,9 @@ p {
 }
 
 th, 
-tr {
+tr,
+td {
+    padding: 5px 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -158,21 +296,5 @@ tr {
     color: #C9C9BF;
 }
 
-.tours {
-    text-align: center;
-    padding: 10%;
-}
 
-.tours td:nth-child(4) {
-    font-family: braisetto, script;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    color: white;
-    background: #c9c9bf42;
-    text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-}
 
